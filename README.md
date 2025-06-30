@@ -7,3 +7,6 @@ can evaluate future game states to make optimal moves.
 
 ## Game Progress
 ![Progress Screenshot](./progress.png)
+
+## Coordinate System
+![Coordinate System](./coordinate_system.png)

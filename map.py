@@ -61,9 +61,9 @@ class Map:
   def print_map(self):
     for i in range(9):
       for j in range(9):
-        if self.player1_pos.x == 8-i and  self.player1_pos.y == j:
+        if self.player1_pos.x == j and  self.player1_pos.y == 8-i:
           print(f'|O|', end=' ')
-        elif self.player0_pos.x == 8-i and  self.player0_pos.y == j:
+        elif self.player0_pos.x == j and  self.player0_pos.y == 8-i:
           print(f'|X|', end=' ')
         else:
           print(f'|_|', end=' ')
