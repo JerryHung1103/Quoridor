@@ -1,4 +1,4 @@
-# 步步为营(Quoridor) - Minimax AI Game
+# 步步爲營(Quoridor) - Minimax AI Game
 
 ## Project Objective
 This project implements a two-player grid-based game where one player is controlled by an AI using 
