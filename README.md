@@ -6,7 +6,11 @@ the Minimax algorithm with alpha-beta pruning. The goal is to create an intellig
 can evaluate future game states to make optimal moves.
 
 ## Game Progress
-![Progress Screenshot](./progress.png)
+1-7-2025: Implemented a game state tree to facilitate the search algorithm
 
-## Coordinate System
-![Coordinate System](./coordinate_system.png)
+![Progress Screenshot](./image.png)
+NOTE: ◉ is Player 0, ⊛ is Player 1 (AI), and ☠☠☠ are walls
+
+TODO: Implement a heuristic function for all game stages
+## Game Consultant:
+https://www.instagram.com/huiddd0819
