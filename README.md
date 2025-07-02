@@ -8,9 +8,12 @@ can evaluate future game states to make optimal moves.
 ## Game Progress
 1-7-2025: Implemented a game state tree to facilitate the search algorithm
 
+2-7-2025: Implemented BFS to obtain shortest path for each agent
+
+
 ![Progress Screenshot](./image.png)
 NOTE: ◉ is Player 0, ⊛ is Player 1 (AI), and ☠☠☠ are walls
 
-TODO: Implement a heuristic function for all game stages
+TODO: Investigate a faster solution
 ## Game Consultant:
 https://www.instagram.com/huiddd0819
