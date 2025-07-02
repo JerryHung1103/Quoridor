@@ -12,6 +12,7 @@ can evaluate future game states to make optimal moves.
 
 
 ![Progress Screenshot](./image.png)
+
 NOTE: ◉ is Player 0, ⊛ is Player 1 (AI), and ☠☠☠ are walls
 
 TODO: Investigate a faster solution
