@@ -56,21 +56,21 @@ class Game:
     for s in status:
       # print(len(s.barries))
 
-      if depth<1:
+      if depth<2:
         # print(s.num_barries)
         self.simulate(s, depth+1, not flag)
       else:
-        # print('==========')
-        # print(self.player0_shortest_path_bfs(s))
-        self.player0_shortest_path_bfs(s)
-        # s.print_map()
-        # print('==========')
+        print('==========')
+        print(self.player0_shortest_path_bfs(s))
+        s.print_map()
+        print('==========')
         return
 
 
   def player0_shortest_path_bfs(self, map): #check if dijkstra algorithm is workable
     q = queue.Queue()
     q.put((map,0))
+    seen = {}
     while not q.empty():
       p, cnt = q.get()
 
@@ -88,4 +88,6 @@ class Game:
       right = [] if right is None else right
       children = up+down+left+right
       for c in children:
-        q.put((c,cnt+1))
+        if (c.player0_pos.x, c.player0_pos.y) not in seen:
+          q.put((c,cnt+1))
+          seen[(c.player0_pos.x, c.player0_pos.y)]=True
